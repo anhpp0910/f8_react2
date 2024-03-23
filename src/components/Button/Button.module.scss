@@ -1,0 +1,23 @@
+.btn {
+  padding: 4px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}
+
+/* .active {
+  background-color: red;
+} */
+
+.primary {
+  color: #fff;
+  background-color: #007bfe;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
